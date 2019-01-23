@@ -1,0 +1,19 @@
+public class PrintSqrt {
+	
+	static void printSqrt(double d) {
+		if(d < 0) {
+		System.err.println("NO ROOT OF NEGATIV NUMBERS.");
+		return;
+	}
+	System.out.println(Math.sqrt(d));
+	}
+
+
+	public static void main(String[] args) {
+		
+		int input;
+		input = new java.util.Scanner(System.in).nextInt();
+		
+		printSqrt(input);
+	}
+}
